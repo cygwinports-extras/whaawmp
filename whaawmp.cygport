@@ -1,0 +1,14 @@
+inherit python-distutils
+
+NAME="whaawmp"
+VERSION=0.2.14
+RELEASE=1
+CATEGORY="Audio Video"
+SUMMARY="GStreamer-based media player"
+DESCRIPTION="Whaaw! Media Player is an attempt to replace Totem without all the
+GNOME dependencies."
+REQUIRES="gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-plugins-ximage"
+HOMEPAGE="http://home.gna.org/whaawmp/"
+SRC_URI="http://download.gna.org/whaawmp/${VERSION}/${NAME}-${VERSION}.tar.bz2"
+
+DIFF_EXCLUDES="messages.pot"
