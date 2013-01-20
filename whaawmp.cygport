@@ -2,7 +2,7 @@ inherit python-distutils
 
 NAME="whaawmp"
 VERSION=0.2.14
-RELEASE=1
+RELEASE=2
 CATEGORY="Audio Video"
 SUMMARY="GStreamer-based media player"
 DESCRIPTION="Whaaw! Media Player is an attempt to replace Totem without all the
